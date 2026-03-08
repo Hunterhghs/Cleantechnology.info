@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- Fade-in on scroll ---
     const fadeTargets = document.querySelectorAll(
-        '.insight-card, .expertise-card, .service-card, .client-type, .engagement-type, .research-item, .principle'
+        '.insight-card, .expertise-card, .research-item, .theme-card, .coverage-item, .methodology-item, .value-block, .snapshot-card, .sector-data-block'
     );
 
     if (fadeTargets.length > 0) {
